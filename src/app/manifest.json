@@ -2,7 +2,7 @@
   "name": "tweaks",
   "description": "description",
   "manifest_version": 3,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "host_permissions": ["<all_urls>"],
   "permissions": [ "contextMenus", "storage", "activeTab" ],
   "default_locale": "en",

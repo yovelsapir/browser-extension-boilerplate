@@ -1,5 +1,6 @@
-import Demo from "../components/Demo";
+import Main from "../components/Main";
+
 function App() {
-  return <Demo/>;
+  return <Main/>;
 }
 export default App;

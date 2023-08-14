@@ -25,7 +25,10 @@ module.exports = (env, options) => {
         },
         {
           test: /\.css$/,
-          use: ["style-loader", "css-loader?modules"]
+          use: [
+            'style-loader',
+            'css-loader'
+          ]
         },
         {
           test: /\.(gif|png|jpe?g|svg)$/i,

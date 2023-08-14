@@ -12,6 +12,7 @@ module.exports = (env, options) => {
       popup: "./src/popup-page/index.js",
       option: "./src/option-page/index.js"
     },
+    devtool: "cheap-module-source-map", // "eval-source-map
     module: {
       rules: [
         {
